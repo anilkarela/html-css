@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    height: 80px ;
+    width: 100%;
+    background-color: gray ;
+}
+.logo{
+    line-height: 80px;
+    width:20%;
+    background-color: orange ;
+    text-align: center;
+    float: left;
+}
+.menu{
+    line-height: 80px;
+    width: 80%;
+    background-color: yellow;
+    float: right;
+    
+}
+ul{
+    list-style-type:none;
+    padding: 0px 50px;
+    text-align:right
+}
+li{
+    margin: 0 50px;
+    padding: 0 50px;
+    display:inline-block ;
+    /* border: 1px solid blue; */
+}
