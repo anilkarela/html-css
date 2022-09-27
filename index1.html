@@ -2,6 +2,7 @@
     <title>HTML CSS Learing</title>
 </head>
 <body>
+    <!-- <div style="display:flex ; justify-content: center; align-items: center; flex-direction: column; width: 100% !important; border: 1px solid black;"> -->
     <h1 style="color:rgb(4, 157, 252); background-color:aliceblue; text-align:center;text-transform:capitalize"> html css javascript</h1>
     <h1>hii <h1>h1</h1></h1>
     <h2>h2</h2>
@@ -40,7 +41,7 @@
 
     <!-- HTML Images-->
 
-    <img src="/images/Screenshot from 2022-05-13 18-50-10.png" width="400"; height="200" title="screenshot" alt="screenshot picture">
+    <img src="../images/IMG20210919154021.jpg" width="400"; height="200" title="screenshot" alt="screenshot picture">
 
     <br><br><br>
     <!-- HTML Tables -->
@@ -72,24 +73,24 @@
 <br><br><br>
     <table border="1" cellspacing="0" cellpadding="10" style="text-align:center">
         <tr>
-            <th colspan="2">College Name</th>
+            <th colspan="1">College Name</th>
             <th>Branch</th>
             <th>Section</th>
         </tr>
 
         <tr>
             <td rowspan="2">Arya College</td>
-            <td>Computer Science</td>
+            <td>Information Technology</td>
             <td>A</td>
         </tr>
         <tr>
-            <td>Arya College</td>
-            <td>Computer Science</td>
+            <!-- <td>Arya College</td> -->
+            <td rowspan="2">Computer Science</td>
             <td>C</td>
         </tr>
         <tr>
-            <td>Arya College</td>
-            <td>Computer Science</td>
+            <td>Arya old College</td>
+            <!-- <td>Computer Science</td> -->
             <td>B</td>
         </tr>
 
@@ -100,6 +101,8 @@
         Odererd Lists
 -->
 <br><br> <br><br>
+
+<!-- user-select:none => user won't be able to select the text or copyt the text -->
 <p style="user-select:none ;">list of shopping :</p>
 <ul type="square">
     <li>laptop</li>
@@ -131,13 +134,15 @@
     <input type="email" name="email">
     <br><br>
     <select>
-        <option>Select Your plan</option>
-        <option value="personal">Personal</option>
-        <option value="business">Business</option>
-        <option value="premium">Premium</option>
+        <optgroup label="PLans">
+            <option>Select Your plan</option>
+            <option value="personal">Personal</option>
+            <option value="business">Business</option>
+            <option value="premium">Premium</option>
+        </optgroup>
     </select>
     <br><br>
-    <textarea cols="20" rows="5"> </textarea> <br><br>
+    <textarea cols="25" rows="5"> </textarea> <br><br>
 
     <p>Select Your Gender</p>
 <input type="radio" name="Gender" > Male
@@ -150,5 +155,5 @@
 <br>
 <marquee behavior="" direction=""><h3> marque tag </h3></marquee>
 
-
+<!-- </div> -->
 </body>
