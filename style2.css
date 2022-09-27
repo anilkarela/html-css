@@ -38,8 +38,8 @@
     letter-spacing: 4px;
     word-spacing: 5px;
     direction: rtl;
-    text-indent: 20px;
-    text-align: center;
+    text-indent: 20px;  
+    /* text-align: center; */
     text-transform: capitalize;
 }
 a:link{
@@ -49,7 +49,7 @@ a:visited{
     color: green;
 }
 a:hover{
-    color:yellow;
+    color:rgba(123, 35, 133, 0.822);
 }
 a:active{
     color:blue;
@@ -58,13 +58,13 @@ a:active{
 .borderCss{
     width: 400px;
     height: 200px;
-    background-color: red;
+    background-color:aquamarine;
     border-width: 8px;
     border-style: solid;
     border-color: black;
 
     border: 5px solid gray;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 ul{
